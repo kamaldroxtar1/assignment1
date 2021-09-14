@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripton" content="Short note on webpage">
+    <meta name="author" content="Name of authors">
+    <meta name="keywords" content="Important words regarding webpage">
+    <title>Basic HTML Tags to Learn</title>
+</head>
+<body>
+    <div>
+        <h1>Simple Table</h1>
+        <table border="7">
+            <caption>Details of Student</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">ENROLLMENT NO</th>
+                    <th colspan="4">MARKS </th>
+                    
+                </tr>
+                <tr>
+                    <th>ENGLISH</th>
+                    <th>HINDI</th>
+                    <th>MATHS</th>
+                    <th>TOTAL</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 101</td>
+                    <td> 1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>6</td>
+                    
+                </tr>
+                <tr>
+                    <td> 102</td>
+                    <td>4</td>
+                    <td> 5</td>
+                    <td>6</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td> 103</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>24</td>
+                </tr>
+            
+                
+                
+            </tbody>
+        </table>
+
+    </div>
+    <div>
+        <h2>Description list</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>used to design web page</dd>
+            <dt>CSS</dt>
+            <dd>used to apply look and feel to web pages</dd>
+        </dl>
+    </div>
+    <hr>
+    <form action="success.html" >
+
+        <label for="fname"> First name:</label><input id="fname" placeholder="First_name" name="name"  type="text">
+        <br> <br> <br>
+
+        <label for="lname"> Last name:</label><input id="lname" placeholder="Last_name"  name="name" type="text">
+        <br> <br> <br>
+
+        <label for="Extraname"> Extra name:</label><input id="Extraname" placeholder="Extra_name"  name="name" type="text">
+        <br> <br>
+
+        <label for="pass"> password :</label><input id="pass" placeholder="pasword"  name="pass" type="password" minlength="5">
+        <br> <br> <br>
+
+        <label for="num"> inputage :</label><input id="num" placeholder="numbers only"  name="num" type="number" min="0" max="100">
+        <br> <br> <br>
+
+        <label for="mail">Email:</label><input type="email" id="mail">
+        <br><br>
+
+        <label>Interested in</label><br>
+        <label><input type="checkbox">english</label>
+        <label><input type="checkbox">hindi</label>
+        <label><input type="checkbox">maths</label>
+        <br><br>
+
+        <label>Gender </label><br>
+        <label><input type="radio" name="gender" >Male</label>
+        <label><input type="radio" name="gender">Female</label>
+        <label><input type="radio" name="gender">Other</label>
+        <br><br>
+
+        <input type="submit" value="REGISTER" >
+        <input type="reset">
+        <br><br><br>
+
+        <label>time :</label><input type="time"><br>
+        <label>range :</label><input type="range"><br>
+        <label>url :</label><input type="url"><br>
+        <label>week :</label><input type="week"><br>
+        <label>color :</label><input type="color"><br>
+        <label>date : </label><input type="date"><br>
+        <label>file :</label><input type="file"><br>
+
+        <input type="image" src="../HTML/images/tree1.jpg" alt="imagdjwdwkjca">
+    </form>
+
+</body>
+</html>

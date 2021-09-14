@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            display: inline-block;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgba(252, 231, 113, 0.568);
+        }
+        meter{
+            width: 200px;
+            height: 20px;
+        }
+        img{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MENUS</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+
+    </nav>
+
+    </header>
+
+
+    <article>
+        <h1>this is for article</h1>
+    </article>
+
+    <section>
+        <h2>this is to partion section</h2>
+    </section>
+
+    <main>
+        <h3>main contents are placed here</h3>
+    </main>
+
+    <footer>
+        <nav>
+            <h4>footer anchor tags</h4>
+        </nav>
+    </footer>
+
+
+    <select name="" id="">
+        <option value="">wqeq</option>
+        <option value="">wqeq</option>
+        <option value="">wqeq</option>
+    </select>
+
+    <details>
+        <summary>about me</summary>
+        <p>i am kamal kishore</p>
+    </details>
+
+    <aside></aside>
+
+    <p>
+        <datalist id="tech">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="javascript">javascript</option>
+        </datalist>
+        <form action="">
+           <label> choose tech :</label> <input list="tech">
+           <input type="reset">
+        </form>
+    </p>
+    <hr>
+    <div>
+      <form oninput="res.value=parseFloat(num1.value)+parseFloat(num2.value)">
+          <input type="number"  name="num1">
+          +
+          <input type="number" name="num2">
+          =
+        <output name="res"> </output>
+      </form>  
+    </div>
+    <hr>
+    <div>
+        <meter min="0" low="20" max="100" high="80" value="40"></meter>
+        <meter min="0" low="20" optimum="19" max="100" high="80" value="82"></meter>
+    </div>
+    <hr>
+    <div>
+        <figure>
+            <figcaption>nature</figcaption>
+            <img src="../HTML/images/tree1.jpg" alt="tree">
+            <img src="../HTML/images/tree1.jpg" alt="tree">
+            <img src="../HTML/images/tree1.jpg" alt="tree">
+        </figure>
+    </div>
+    <hr>
+    <div>
+        <h2>audio and video tags</h2>
+        <p>
+            <audio autoplay loop controls>
+                <source src="my media/rain-01.mp3" type="audio/mp3">
+                <b>browser does not support audio format</b>
+            </audio>
+        </p>
+        <hr>
+        <p>
+            <video autoplay loop controls height="200px" width="250px">
+                <source src="my media/Cartoon.mp4">
+            </video>
+        </p>
+        <hr>
+    </div>
+</body>
+</html>
